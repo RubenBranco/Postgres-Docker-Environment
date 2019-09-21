@@ -41,12 +41,17 @@ fi
 image=$(cat ./docker/postgres/.latest)
 name="postgres"
 
+if ! test -d volumes/postgres; then
+    mkdir -p volumes/postgres
+fi
+
 echo "Starting $name container from image $image." >&2
 
 docker run \
     --name $name \
     --hostname postgres \
     $extra_options \
+    --volume $(pwd)/volumes/postgres:/var/lib/postgresql/data \
     --publish 5432:5432 \
     $image
 
