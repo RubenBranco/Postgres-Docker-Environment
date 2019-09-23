@@ -4,7 +4,7 @@
 
 ## Executar o projeto
 
-O environment foi testado em Linux e MacOS (bash scripts). É possível que em Windows seja mais difícil de fazer correr.
+O environment foi testado em Linux e MacOS (bash scripts). É possível que em Windows seja mais difícil de fazer correr, mas talvez com Windows Linux Subsystem (<https://docs.microsoft.com/en-us/windows/wsl/install-win10>) seja igualmente simples.
 
 É necessário ter o docker instalado e a correr para isto funcionar. Instalação: <https://docs.docker.com/install/>
 
@@ -49,9 +49,7 @@ Likewise for pgAdmin, its data is saved under `volumes/pgadmin`.
 
 ## Running the project
 
-O environment foi testado em Linux e MacOS (bash scripts). É possível que em Windows seja mais difícil de fazer correr.
-
-The environment was tested in Linux and MacOS (bash scripts). It's possible that using windows might offer a bit more of a challenge.
+The environment was tested in Linux and MacOS (bash scripts). It's possible that using windows might offer a bit more of a challenge, but maybe with Windows Linux Subsystem (<https://docs.microsoft.com/en-us/windows/wsl/install-win10>) it might work just as easily.
 
 Docker is a requirement so you have to have it installed and running. Install: <https://docs.docker.com/install/>
 
